@@ -1,0 +1,10 @@
+skladnik1 = cat /etc/passwd | wc -l
+skladnik2 = ps
+skladnik3 = wc -l
+skladnik4 = ls -l
+skladnik5 = grep main
+
+skladnik1 
+skladnik2 
+skladnik2 | skladnik5 
+skladnik4 | skladnik3 

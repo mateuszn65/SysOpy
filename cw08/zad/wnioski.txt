@@ -1,0 +1,11 @@
+Metoda NUMBERS działa naiwnie, mimo podziału zadania na wątki
+każdy z wątków i tak musi przechodzić przez wszystkie wartości.
+Widzimy, że dla metody BLOCK, przy conajmniej 2 wątkach
+czas jest zawsze mniejszy, ponieważ wątki pracują tylko na 
+określonej części obrazu. 
+
+Często widzimy, że czas wykonania zadania jest
+mniejszy od sumy czasów poszczególnych wątków, co wskazuje na 
+równoczesne przeprowadzanie obliczeń.
+
+I oczywiście im większy rozmiar obrazu tym dłuższe działanie.

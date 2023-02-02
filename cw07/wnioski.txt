@@ -1,0 +1,6 @@
+Programy działają popramnie zarówno dla N, M < 5 oraz N, M > 5.
+Liczba pizz w piecu ani na stole nigdy nie przekracza 5.
+
+Pamięć dzielona zapewnia wydajniejsze dzielenie zasobów między procesami,
+jednak, aby zapewnić atomowość operacji odczytu i zapisu, potrzebujemy 
+semaforów, które synchronizują procesy w dostępie do tej pamięci.

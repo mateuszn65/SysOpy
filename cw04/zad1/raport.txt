@@ -1,0 +1,6 @@
+-proces zablokowany nie jest widzoczny w procesie potomnym
+-funkcja fork() dziedziczy wartosci maski oraz obsluge sygnalow
+-funkcja exec() dziedziczy wartosci maski
+-ingorowane sygnaly nie sa widoczne jako oczekiwane
+
+
